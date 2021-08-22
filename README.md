@@ -17,10 +17,7 @@ MSYS2 MinGW 64-bit を立ち上げて以下の通りにして必要なものを�
 ```
 pacman -S base-devel
 pacman -S mingw-w64-x86_64-toolchain
-pacman -S mingw-w64-x86_64-openblas
-pacman -S mingw-w64-x86_64-lapack
-pacman -S mingw-w64-x86_64-meson
-pacman -S mingw-w64-x86_64-ninja
+pacman -S mingw-w64-x86_64-openblas mingw-w64-x86_64-lapack mingw-w64-x86_64-meson mingw-w64-x86_64-ninja
 ```
 
 ## 3. ビルド
